@@ -151,7 +151,6 @@
 				INFOPLIST_KEY_NSCameraUsageDescription = "Додаток може використовувати камеру для сканування QR-кодів парфумів та додавання фотографій до нотаток.";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Додаток може використовувати ваше місцезнаходження для рекомендації парфумів, підходящих для вашого клімату та сезону.";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Додаток може отримати доступ до вашої фотобібліотеки для додавання зображень до особистих нотаток про парфуми.";
-				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Цей додаток використовує відстеження для персоналізації рекомендацій парфумів та покращення вашого досвіду використання.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -163,12 +162,16 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.prfProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -185,7 +188,6 @@
 				INFOPLIST_KEY_NSCameraUsageDescription = "Додаток може використовувати камеру для сканування QR-кодів парфумів та додавання фотографій до нотаток.";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Додаток може використовувати ваше місцезнаходження для рекомендації парфумів, підходящих для вашого клімату та сезону.";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Додаток може отримати доступ до вашої фотобібліотеки для додавання зображень до особистих нотаток про парфуми.";
-				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Цей додаток використовує відстеження для персоналізації рекомендацій парфумів та покращення вашого досвіду використання.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -197,12 +199,16 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.prfProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
